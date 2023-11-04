@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-info">
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="entreprise.html">Entreprise</a> </li>
+                <li> <a href="realisations.html">Réalisations</a> </li>
+                <li> <a href="contact.html">Contact</a> </li>
+            </ul>
+            <input type="text">
+        </nav>
+    </header> 
+    <main class="main-contact">
+        <label for="civilité"> Civilité</label>
+        <select name="civilité" id="civilité">
+            <option value="">choisir civilité</option>
+            <option value="homme">M.</option>
+            <option value="femme">Mme</option>
+        </select>
+        <label for="name">Nom Prenom</label>
+        <input type="text" id="name">
+        <label for="adresse">Adresse Postale</label>
+        <input type="text" id="adresse">
+        <section>
+            <input type="checkbox" id="check">
+            <label for="check"> j'accepte les politiques de confidentialité</label>
+        </section>
+        <button>Envoyer</button>
+    </main>
+</body>
+</html>
